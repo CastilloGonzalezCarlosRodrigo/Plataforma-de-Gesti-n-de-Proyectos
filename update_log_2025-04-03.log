@@ -1,0 +1,168 @@
+
+
+[2025-04-03 21:44:33] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"alta","duracion":5},{"id":4,"prioridad":"alta","duracion":7},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 21:52:13] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"media","duracion":5},{"id":4,"prioridad":"media","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 21:53:08] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"media","duracion":5},{"id":4,"prioridad":"baja","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 21:53:14] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"media","duracion":5},{"id":4,"prioridad":"media","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 21:53:59] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"alta","duracion":5},{"id":4,"prioridad":"alta","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 22:46:29] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"alta","duracion":5},{"id":4,"prioridad":"alta","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 22:47:27] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"baja","duracion":5},{"id":2,"prioridad":"baja","duracion":5},{"id":3,"prioridad":"alta","duracion":5},{"id":4,"prioridad":"alta","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15
+
+
+[2025-04-03 22:56:57] Inicio de proceso
+Datos recibidos: {"updates":[{"id":1,"prioridad":"alta","duracion":5},{"id":2,"prioridad":"alta","duracion":5},{"id":3,"prioridad":"alta","duracion":5},{"id":4,"prioridad":"alta","duracion":5},{"id":5,"prioridad":"baja","duracion":5},{"id":6,"prioridad":"baja","duracion":5},{"id":7,"prioridad":"baja","duracion":5},{"id":8,"prioridad":"baja","duracion":5},{"id":9,"prioridad":"baja","duracion":5},{"id":10,"prioridad":"baja","duracion":5},{"id":11,"prioridad":"baja","duracion":5},{"id":12,"prioridad":"baja","duracion":5},{"id":13,"prioridad":"baja","duracion":5},{"id":14,"prioridad":"baja","duracion":5},{"id":15,"prioridad":"baja","duracion":5}]}
+Preparando consulta: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE id = ?
+ID 1 no existe en la base de datos
+ID 2 no existe en la base de datos
+ID 3 no existe en la base de datos
+ID 4 no existe en la base de datos
+ID 5 no existe en la base de datos
+ID 6 no existe en la base de datos
+ID 7 no existe en la base de datos
+ID 8 no existe en la base de datos
+ID 9 no existe en la base de datos
+ID 10 no existe en la base de datos
+ID 11 no existe en la base de datos
+ID 12 no existe en la base de datos
+ID 13 no existe en la base de datos
+ID 14 no existe en la base de datos
+ID 15 no existe en la base de datos
+Proceso completado. Actualizaciones exitosas: 0 de 15

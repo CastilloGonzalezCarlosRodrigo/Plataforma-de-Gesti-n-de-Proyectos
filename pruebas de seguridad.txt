@@ -1,0 +1,3 @@
+// Prueba con:
+usuario: <script>alert('XSS')</script>
+password: <img src=x onerror=alert(1)>

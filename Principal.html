@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flecha Roja</title>
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/imgs/CastilloCode.jpg" type="image/x-icon">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="assets/css/primer_style.css">
+    <link rel="stylesheet" href="assets/css/segundo_style.css">
+    <link rel="stylesheet" href="assets/css/tabla.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">P. de Gestión de Folios</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="tabla-link">
+                        <span class="icon">
+                            <ion-icon name="browsers-outline"></ion-icon>
+                        </span>
+                        <span class="title">Tabla</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="grafica-link">
+                        <span class="icon">
+                            <ion-icon name="bar-chart-outline"></ion-icon>
+                        </span>
+                        <span class="title">Grafica</span>
+                    </a>
+                </li>
+
+                <!-- En tu lista de navegación, añade esto antes del ítem de Cerrar Sesión -->
+                <li>
+                    <a href="#" id="status-link">
+                        <span class="icon">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </span>
+                        <span class="title">Estados</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="gantt-link">
+                        <span class="icon">
+                            <ion-icon name="git-network-outline"></ion-icon>
+                        </span>
+                        <span class="title">Priorización</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="calendario-link">
+                        <span class="icon">
+                            <ion-icon name="calendar-number-outline"></ion-icon>
+                        </span>
+                        <span class="title">Calendario</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="ayuda-link">
+                        <span class="icon">
+                            <ion-icon name="help-circle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Documentación y Ayuda</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="logout-link">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Cerrar Sesión</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" id="search-all" placeholder="Buscar por nombre, correo, empresa o folio">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/logoflecharoja.png" alt="Logo Flecha Roja">
+                </div>
+            </div>
+
+            <!-- ================ Contenedor dinámico ================= -->
+            <div id="dynamic-content">
+                <!-- Tabla -->
+                <div id="tabla" class="content-section">
+                    <div class="contenedor">
+                        <table id="tablaSolicitudes">
+                            <thead>
+                                <tr>
+                                    <th>Folio</th>
+                                    <th>Solicitante</th>
+                                    <th>Email</th>
+                                    <th>Fecha</th>
+                                    <th>Centro de Costos</th>
+                                    <th>Empresa</th>
+                                    <th>Proyecto</th>
+                                    <th>Tipo de Diseño</th>
+                                    <th>Archivo</th>
+                                    <th>Material</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Aquí se llenarán los datos automáticamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Gráfica -->
+                <div id="grafica" class="content-section">
+                    <div class="graficas-export">
+                        <button id="exportar-csv" class="export-btn">
+                            <ion-icon name="document-text-outline"></ion-icon> CSV
+                        </button>
+                        <button id="exportar-excel" class="export-btn">
+                            <ion-icon name="document-outline"></ion-icon> Excel
+                        </button>
+                        <button id="exportar-pdf" class="export-btn">
+                            <ion-icon name="document-attach-outline"></ion-icon> PDF
+                        </button>
+                    </div>
+
+                    <!-- Contenedor principal con tabs -->
+                    <div class="graficas-tabs-container">
+                        <div class="graficas-tabs">
+                            <button class="tab-btn active" data-tab="general">Vista General</button>
+                            <button class="tab-btn" data-tab="empresas">Por Empresas</button>
+                            <button class="tab-btn" data-tab="tipos">Por Tipos</button>
+                            <button class="tab-btn" data-tab="estados">Por Estados</button>
+                        </div>
+
+                        <!-- Contenido de los tabs -->
+                        <div class="graficas-content">
+                            <!-- Vista General (4 gráficas pequeñas) -->
+                            <div id="tab-general" class="tab-content active">
+                                <div class="graficas-grid">
+                                    <div class="grafica-mini">
+                                        <h3>Solicitudes por Empresa</h3>
+                                        <canvas id="graficaEmpresasMini"></canvas>
+                                    </div>
+                                    <div class="grafica-mini">
+                                        <h3>Solicitudes por Tipo de Diseño</h3>
+                                        <canvas id="graficaTipoDisenoMini"></canvas>
+                                    </div>
+                                    <div class="grafica-mini">
+                                        <h3>Solicitudes por Estado</h3>
+                                        <canvas id="graficaEstadoMini"></canvas>
+                                    </div>
+                                    <div class="grafica-mini">
+                                        <h3>Solicitudes por Prioridad</h3>
+                                        <canvas id="graficaPrioridadesMini"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Otras vistas (gráficas grandes) -->
+                            <div id="tab-empresas" class="tab-content">
+                                <div class="grafica-full">
+                                    <canvas id="graficaEmpresas"></canvas>
+                                </div>
+                            </div>
+
+                            <div id="tab-tipos" class="tab-content">
+                                <div class="grafica-full">
+                                    <canvas id="graficaTipoDiseno"></canvas>
+                                </div>
+                            </div>
+
+                            <div id="tab-estados" class="tab-content">
+                                <div class="grafica-full">
+                                    <canvas id="graficaEstado"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dentro de tu <div id="dynamic-content">, añade esto después de la sección de Gantt -->
+                <div id="status" class="content-section">
+                    <div class="contenedor">
+                        <h2>Estados de Solicitudes</h2>
+                        <div class="status-filters">
+                            <div class="filter-group">
+                                <label for="filter-status">Filtrar por estado:</label>
+                                <select id="filter-status">
+                                    <option value="all">Todos</option>
+                                    <option value="Revisado">Revisado</option>
+                                    <option value="No revisado">No revisado</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-priority-status">Filtrar por prioridad:</label>
+                                <select id="filter-priority-status">
+                                    <option value="all">Todas</option>
+                                    <option value="alta">Alta</option>
+                                    <option value="media">Media</option>
+                                    <option value="baja">Baja</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="filter-empresa">Filtrar por empresa:</label>
+                                <select id="filter-empresa">
+                                    <option value="all">Todas</option>
+                                    <option value="Flecha Roja">Flecha Roja</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="status-stats">
+                            <div class="stat-card">
+                                <h3>Total</h3>
+                                <p id="total-count">0</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>Revisados</h3>
+                                <p id="reviewed-count">0</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>No Revisados</h3>
+                                <p id="pending-count">0</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>Prioridad Alta</h3>
+                                <p id="high-priority-count">0</p>
+                            </div>
+                        </div>
+                        <table id="tablaStatus">
+                            <thead>
+                                <tr>
+                                    <th>Solicitante</th>
+                                    <th>Proyecto</th>
+                                    <th>Estado</th>
+                                    <th>Prioridad</th>
+                                    <th>Fecha</th>
+                                    <th>Duración (días)</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Aquí se llenarán los datos automáticamente -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Diagrama de Gantt -->
+                <div id="gantt" class="content-section">
+                    <div class="gantt-controls">
+                        <button id="actualizar-prioridades" class="export-btn">
+                            <ion-icon name="refresh-outline"></ion-icon> Guardar Cambios
+                        </button>
+                        <div class="priority-filter">
+                            <label for="filter-priority">Filtrar por prioridad:</label>
+                            <select id="filter-priority">
+                                <option value="all">Todas</option>
+                                <option value="alta">Alta</option>
+                                <option value="media">Media</option>
+                                <option value="baja">Baja</option>
+                            </select>
+                        </div>
+                        <div class="time-control">
+                            <label for="time-scale">Escala de tiempo:</label>
+                            <select id="time-scale">
+                                <option value="days">Días</option>
+                                <option value="weeks">Semanas</option>
+                                <option value="months">Meses</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="gantt-container"></div>
+                </div>
+
+                <!-- Calendario -->
+                <div id="calendario" class="content-section">
+                    <div id="calendar"></div>
+                </div>
+
+                <!-- Documentacion y ayuda -->
+                <div id="ayuda" class="content-section">
+                    <div class="contenedor">
+                        <h2>Documentación y Ayuda</h2>
+                        <p>Bienvenido a la sección de Documentación y Ayuda. Aquí encontrarás información útil para
+                            utilizar la plataforma.</p>
+
+                        <h3>Funcionalidades del Proyecto</h3>
+                        <ul>
+                            <li>
+                                <strong>Formulario de Solicitudes:</strong>
+                                <p>
+                                    El formulario permite a los usuarios crear nuevas solicitudes. Los datos ingresados
+                                    se validan antes de ser enviados al correo electrónico y almacenados en la base de
+                                    datos.
+                                    Los campos obligatorios incluyen: solicitante, email, fecha, centro de costos,
+                                    empresa, proyecto, tipo de diseño, material y archivo adjunto.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Base de Datos:</strong>
+                                <p>
+                                    Los datos de las solicitudes se almacenan en una base de datos MySQL. La tabla
+                                    principal contiene campos como solicitante, email, fecha, centro de costos, empresa,
+                                    proyecto, tipo de diseño, material, archivo adjunto y estado.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Visualización de Datos en la Tabla:</strong>
+                                <p>
+                                    La tabla muestra todas las solicitudes almacenadas en la base de datos. Los usuarios
+                                    pueden filtrar las solicitudes por nombre, correo o empresa, y cambiar el estado de
+                                    las solicitudes directamente desde la tabla.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Gráficas:</strong>
+                                <p>
+                                    Las gráficas muestran información resumida sobre las solicitudes, como el número de
+                                    solicitudes por empresa, tipo de diseño y estado.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Calendario:</strong>
+                                <p>
+                                    El calendario muestra las solicitudes en una vista mensual. Cada solicitud tiene un
+                                    color diferente según su estado (verde para "Revisado" y rojo para "No revisado").
+                                </p>
+                            </li>
+                        </ul>
+
+                        <h3>Preguntas Frecuentes (FAQ)</h3>
+                        <ul>
+                            <li>
+                                <strong>¿Cómo crear una nueva solicitud?</strong>
+                                <p>
+                                    Para crear una nueva solicitud, requieres completar el formulario y enviar la
+                                    información.
+                                </p>
+                            </li>
+                            <li>
+                                <strong>¿Cómo cambiar el estado de una solicitud?</strong>
+                                <p>
+                                    En la tabla de solicitudes, haz clic en el botón de estado para cambiar entre
+                                    "Revisado" y "No revisado".
+                                </p>
+                            </li>
+                            <li>
+                                <strong>¿Cómo ver los detalles de una solicitud?</strong>
+                                <p>
+                                    Haz clic en cualquier evento del calendario para ver los detalles completos de la
+                                    solicitud.
+                                </p>
+                            </li>
+                        </ul>
+
+                        <h3>Contacto de Soporte</h3>
+                        <p>Si tienes alguna duda o problema, no dudes en contactar a nuestro equipo de soporte:</p>
+                        <ul>
+                            <li><strong>Email:</strong> carlilocas2003@gmail.com</li>
+                            <li><strong>Teléfono:</strong> 729 280 2141</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor de notificaciones -->
+    <div id="notificaciones" class="notificaciones"></div>
+
+    <!-- Ventana modal para detalles del evento -->
+    <div id="modal-calendario" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <h2 id="modal-titulo"></h2>
+            <p><strong>Solicitante:</strong> <span id="modal-solicitante"></span></p>
+            <p><strong>Email:</strong> <span id="modal-email"></span></p>
+            <p><strong>Fecha:</strong> <span id="modal-fecha"></span></p>
+            <p><strong>Centro de Costos:</strong> <span id="modal-centro-costos"></span></p>
+            <p><strong>Empresa:</strong> <span id="modal-empresa"></span></p>
+            <p><strong>Proyecto:</strong> <span id="modal-proyecto"></span></p>
+            <p><strong>Tipo de Diseño:</strong> <span id="modal-tipo-diseno"></span></p>
+            <p><strong>Material:</strong> <span id="modal-material"></span></p>
+            <p><strong>Estado:</strong> <span id="modal-estado"></span></p>
+        </div>
+    </div>
+
+    <!-- Agrega esto junto con tus otros modales -->
+    <div id="modal-confirmacion" class="modal">
+        <div class="modal-contenido">
+            <h2>Confirmar Cambio de Estado</h2>
+            <p id="modal-confirmacion-mensaje">¿Estás seguro de que deseas cambiar el estado de esta solicitud?</p>
+            <div class="modal-botones">
+                <button id="confirmar-cambio" class="btn-confirmar">Confirmar</button>
+                <button id="cancelar-cambio" class="btn-cancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales/es.min.js"></script>
+    <!-- Graficas jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

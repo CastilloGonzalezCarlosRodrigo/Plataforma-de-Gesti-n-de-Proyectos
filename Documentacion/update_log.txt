@@ -1,0 +1,1001 @@
+2025-04-03 18:45:29 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 2
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 2, Carlos
+Filas afectadas: 1
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:45:39 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => baja
+                    [duracion] => 12
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 1
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: baja, 12, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:46:09 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => baja
+                    [duracion] => 11
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: baja, 11, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:48:20 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => baja
+                    [duracion] => 8
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: baja, 8, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:48:39 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => alta
+                    [duracion] => 3
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 3, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:49:05 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => baja
+                    [duracion] => 13
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: baja, 13, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+2025-04-03 18:49:52 - Datos recibidos: Array
+(
+    [updates] => Array
+        (
+            [0] => Array
+                (
+                    [solicitante] => carlitos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [1] => Array
+                (
+                    [solicitante] => Carlos
+                    [prioridad] => alta
+                    [duracion] => 5
+                )
+
+            [2] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => baja
+                    [duracion] => 9
+                )
+
+            [3] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [4] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [5] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [6] => Array
+                (
+                    [solicitante] => CRCG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [7] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [8] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [9] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [10] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [11] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [12] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [13] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+            [14] => Array
+                (
+                    [solicitante] => Carlos Rodrigo CG
+                    [prioridad] => media
+                    [duracion] => 5
+                )
+
+        )
+
+)
+
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, carlitos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: alta, 5, Carlos
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: baja, 9, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 12
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, CRCG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
+Ejecutando query: UPDATE solicitudes SET prioridad = ?, duracion = ? WHERE solicitante = ? con valores: media, 5, Carlos Rodrigo CG
+Filas afectadas: 0
